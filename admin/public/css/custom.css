@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th { 
+    background-color: #f5f5f5;/* background-color:#5cb85c; */
+} 
+
+/* 行間空ける用 */
+.brv-row{
+    height:15px;
+}
+
+/* main #337ab7 -> #f5f5f5 */
+/* border #2e6da4 -> rgb(231, 231, 231); */
+/* font #fff -> #333 */
+
+/* main:activ #286090 -> #eee */
+/* border:activ #204d74 -> rgb(221, 221, 221); */
+
+.btn-ash
+{color:#333;background-color:#f5f5f5;border-color:rgb(231, 231, 231)}
+
+.btn-ash.active,.btn-ash.focus,.btn-ash:active,.btn-ash:focus,.btn-ash:hover,.open>.dropdown-toggle.btn-ash
+{color:#333;background-color:#eee;border-color:rgb(221, 221, 221)}
+
+.btn-ash.active,.btn-ash:active,.open>.dropdown-toggle.btn-ash
+{background-image:none}
+
+.btn-ash.disabled,.btn-ash.disabled.active,.btn-ash.disabled.focus,.btn-ash.disabled:active,.btn-ash.disabled:focus,.btn-ash.disabled:hover,.btn-ash[disabled],.btn-ash[disabled].active,.btn-ash[disabled].focus,.btn-ash[disabled]:active,.btn-ash[disabled]:focus,.btn-ash[disabled]:hover,fieldset[disabled] .btn-ash,fieldset[disabled] .btn-ash.active,fieldset[disabled] .btn-ash.focus,fieldset[disabled] .btn-ash:active,fieldset[disabled] .btn-ash:focus,fieldset[disabled] .btn-ash:hover
+{background-color:#f5f5f5;border-color:rgb(231, 231, 231)}
+
+.btn-ash .badge
+{color:#f5f5f5;background-color:#333}
+
+
+/* ブラウザ間でのselect要素の見た目統一 */
+select{
+    -webkit-appearance: none;
+}
+
+::-ms-expand {
+    display: none;
+}
+
+.add_triangle {
+    position: relative;
+    display: block;
+    font-weight: normal;
+}
+
+.add_triangle:before{
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top: 7px solid #555;
+    pointer-events: none;
+}
+
+.add_triangle_date {
+    position: relative;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.add_triangle_date:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -3px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top: 7px solid #555;
+    pointer-events: none;
+}
+
+.ignore_err_checkbox{
+    padding-left: 0;
+}
+
+.ignore_err_checkbox > label{
+    padding-bottom: 7px;
+}
+.submenu a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+.dropdown>li {
+    padding: 10px 15px;
+}
+.dropdown li {
+    list-style: none;
+    position: relative;
+}
+.dropdown {
+    width: 100%;
+    padding: 0;
+    /* background: #125; */
+    color: #337ab7;
+}
+.dropdown_toggle #arrow {
+    -webkit-transform: rotate(
+180deg
+);
+    transform: rotate(
+90deg
+);
+}
+.dropdown_toggle #arrow {
+    -webkit-transform: rotate(
+180deg
+);
+    transform: rotate(
+180deg
+);
+}
+#arrow {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+    position: absolute;
+    top: 13px;
+    right: auto;
+    padding-left: 10px;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+#arrow {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+    position: absolute;
+    top: 12px;
+    right: auto;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+.submenu li {
+    border: none!important;
+}
+.submenu{
+    display:none;
+}
+
+.add_btn{
+    background-color: #FF4633;
+    border:none;
+    padding:5px 15px;
+    border-radius: 5px;
+}
+/* select{margin:0;font:inherit;color:inherit}
+select{text-transform:none}
+select{background:#fff!important}
+select{font-family:inherit;font-size:inherit;line-height:inherit}
+select[multiple],select[size]{height:auto}
+select.input-sm{height:30px;line-height:30px}
+select[multiple].input-sm,textarea.input-sm{height:auto}
+select.form-group-sm .form-control{height:30px;line-height:30px}
+select[multiple].form-group-sm .form-control,textarea.form-group-sm .form-control{height:auto}
+select.input-lg{height:46px;line-height:46px}
+select[multiple].input-lg,textarea.input-lg{height:auto}
+select.form-group-lg .form-control{height:46px;line-height:46px}
+select[multiple].form-group-lg .form-control,textarea.form-group-lg .form-control{height:auto}
+select.input-group-lg>.form-control,
+select.input-group-lg>.input-group-addon,
+select.input-group-lg>.input-group-btn>.btn{height:46px;line-height:46px}
+select[multiple].input-group-lg>.form-control,
+select[multiple].input-group-lg>.input-group-addon,
+select[multiple].input-group-lg>.input-group-btn>.btn{height:auto}
+select.input-group-sm>.form-control,
+select.input-group-sm>.input-group-addon,
+select.input-group-sm>.input-group-btn>.btn{height:30px;line-height:30px}
+select[multiple].input-group-sm>.form-control,
+select[multiple].input-group-sm>.input-group-addon,
+select[multiple].input-group-sm>.input-group-btn>.btn{height:auto} */
+
+/* パネル用ヘッダーフォントサイズ */
+/* 第一階層 */
+.brv-ph1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+/* テーブルヘッダ */
+.brv-th {
+    font-size: 12px;
+}
+  
+.fa-plus:before {
+    content: "\f067";
+    margin-right: 20px;
+}
+  
+.px-0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.pr-0 {
+    padding-right: 0 !important;
+}
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.image_preview img {
+    width: 150px;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+}

@@ -1,0 +1,1184 @@
+#main ul.header_game_event_lists {
+    font-size: 12px;
+    padding: 0;
+    list-style: none;
+}
+#main .headline, h1.headline.match {
+  text-align: left;
+  background: rgba(23,46,108,.1);
+  font-size: 15px;
+}
+h1.headline {
+  display: block;
+  text-align: center;
+  color: #172e6c;
+  margin: 0 0 7px;
+  padding: 10px 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+#main, .locale, .odds_type, .timezone, h1.headline {
+  position: relative;
+}
+#main .headline:before, h1.headline.match:before {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  width: 3px;
+  height: 1em;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: #172e6c;
+}
+#main .pc {
+  display: block;
+}
+.baseball_description {
+  font-size: 11px;
+  margin: 0;
+  padding: 10px 20px;
+}
+#main section {
+  clear: both;
+}
+.cf, .cf:after {
+  display: block;
+}
+.stock-price-box-s ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 10px calc(4% - 5px);
+  font-size: 0;
+}
+.stock-price-box-s ul li {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  width: 31%;
+  margin: 0 5px 10px 5px;
+  padding: 0;
+  border: 1px #b5b5b5 solid;
+  vertical-align: top;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.stock-price-box-s ul li span:nth-child(odd) {
+  display: block;
+  padding: 5px 8px;
+  border-bottom: 1px #b5b5b5 solid;
+  text-align: center;
+  background-color: #eee;
+  color: #000000;
+  font-size: 12px;
+  font-weight: normal;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  word-break: break-all;
+}
+.stock-price-box-s ul li span:nth-child(even) {
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  color: #000000;
+  font-size: 13px;
+}
+.cf, .cf:after {
+  display: block;
+}
+#main .sp {
+  display: none;
+}
+.baseball_description {
+  font-size: 11px;
+  margin: 0;
+  padding: 10px 20px;
+}
+#main section.odds_list, #main section.odds_list.top {
+  margin: 0 0 10px;
+  background-color: #fff;
+  padding: 0;
+}
+#main section {
+  clear: both;
+}
+.tabs_overflow {
+  width: 100%;
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#tab {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-size: 0;
+}
+.tab_li {
+  display: inline-table;
+  list-style-type: none;
+  margin: 0 0 -3px;
+  padding: 0;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+.selected .tab_button, .tab_button:hover {
+  color: #fff;
+  background: #3a6293;
+}
+.tab_button {
+  display: block;
+  min-width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+}
+#main section.odds_list dl {
+  margin: 0;
+  padding: 0;
+}
+#main section.odds_list dl dt, .end_match_title {
+  padding: 10px 15px;
+  font-weight: 700;
+  text-align: left;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  background-color: #a5a5a5;
+  clear: both;
+}
+#main section.odds_list dl dt span {
+  display: block;
+  font-size: 11px;
+  margin: 0;
+  color: #fff;
+}
+body.ja #main section.odds_list dl dt span.match_game_name {
+  font-size: 12px;
+}
+#main section.odds_list dl dt span {
+  display: block;
+  font-size: 11px;
+  margin: 0;
+  color: #fff;
+}
+#main section.odds_list dl dt.odds_category_title.bet_now {
+  background-color: #eee;
+}
+#main section.odds_list dl dt.odds_category_title {
+  background-color: #fff;
+  font-weight: 700;
+}
+#main section.odds_list dl dt.odds_category_title, .odds_category_title {
+  padding: 2px 10px 2px 15px;
+  font-size: 10px;
+}
+#main section.odds_list dl dt, .end_match_title {
+  padding: 10px 15px;
+  font-weight: 700;
+  text-align: left;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  background-color: #000;
+  clear: both;
+}
+#main section.odds_list dl dt.odds_category_title span {
+  color: #333;
+}
+#main section.odds_list dl dt span {
+  display: block;
+  font-size: 11px;
+  margin: 0;
+  color: #fff;
+}
+#main section.odds_list dl dd {
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+#main section.odds_list dl dd p.time {
+  font-size: 13px;
+  color: #26457f;
+  text-align: center;
+  margin: 0 0 -26px;
+  padding: 3px;
+  display: none;
+}
+#main section.odds_list dl dd p.toggle_ber, .end_match_block p.toggle_ber, .toggle_ber {
+  display: unset;
+  float: right;
+  margin: 5px 10px 5px 0;
+  padding: 3px 10px;
+  text-align: center;
+  background-color: #c9c9c9;
+  font-size: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 10px;
+  display: none;
+}
+.toggle_ber {
+  color: #fff;
+}
+#main section.odds_list dl dd span.toggle_btn, .toggle_btn {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px 0 auto;
+  padding: 0;
+  vertical-align: middle;
+}
+#main section.odds_list dl dd span.toggle_btn:before, .toggle_btn:before {
+  position: absolute;
+  top: -3px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-top: 5px solid #9e9e9e;
+}
+#main section.odds_list dl dd .detail, .end_match_detail {
+  margin: 0;
+  padding: 5px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  display: none;
+  clear: both;
+}
+#main section.odds_list dl dd .detail p, .end_match_game_element {
+  font-size: 12px;
+  margin: 3px 0;
+  padding: 0;
+}
+#main section.odds_list dl dd ul, #main section.odds_list.top dl dd ul, .ehd_match_bet_list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: inline-block;
+}
+#main section.odds_list dl dd ul li, .end_match_bet_li {
+  margin: 0;
+  padding: 7px 10px;
+  font-size: 13px;
+  list-style-type: none;
+  border-top: 1px solid #ccc;
+  text-align: right;
+}
+.bet_team_teams_area, .end_match_teams_area {
+  float: left;
+}
+#main section.odds_list dl dd ul li span.team {
+  float: left;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+#main section.odds_list dl dd ul li span.team {
+  display: block;
+  margin-bottom: 6px;
+  text-align: left;
+}
+#main section.odds_list dl dd ul li img.team_icon, .team_icon {
+  float: left;
+  margin-right: 5px;
+  height: 25px;
+  width: auto;
+}
+#main section.odds_list dl dd ul li img.team_icon, .team_icon {
+  margin-top: -3px;
+}
+.bet_team_odds_area, .end_match_result_area, .top_team_odds_area {
+  display: inline-block;
+}
+#main section.odds_list dl dd ul li span.display_odds, .end_match_odds {
+  width: auto;
+  padding: 3px;
+  min-width: 60px;
+  margin: 0 10px;
+  background-color: #f7f7f7;
+  border: 1px solid rgba(0,0,0,.1);
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+#main section.odds_list dl dd ul li span.display_odds, .end_match_odds {
+  font-weight: 700;
+}
+.hands_bet_end_soon, .hands_bet_now {
+  cursor: pointer;
+  cursor: hand;
+  display: inline-block;
+  font-weight: 700;
+  padding: 5px;
+  min-width: 65px;
+  border: 1px solid rgba(0,0,0,.2);
+  background-color: #fff;
+}
+#main section.odds_list dl dd ul li span.bet_btn {
+  width: auto;
+  margin: 0;
+  padding: 5px 10px;
+  display: inline-block;
+  text-align: center;
+}
+#main section.odds_list dl dd ul li span.bet_btn {
+  width: auto;
+  margin: 0;
+  padding: 5px 10px;
+  display: inline-block;
+  text-align: center;
+}
+#main section.odds_list dl dd ul li span.select {
+  border: 1px solid #E53A3A;
+  color: #fff;
+  font-size: 11px;
+  padding: 2px 0;
+  cursor: pointer;
+  cursor: hand;
+  background-color: #E53A3A;
+}
+#main section.odds_list dl dd ul li span.bet_btn {
+  -webkit-animation: faders 1.5s linear infinite alternate;
+  -moz-animation: faders 1.5s linear infinite alternate;
+  animation: faders 1.5s linear infinite alternate;
+}
+.bet_check[type=checkbox] {
+  display: none;
+  height: 0;
+  width: 0;
+  margin: 0;
+  padding: 0;
+}
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+  /*display: none;*/
+}
+.bet_check_label {
+  font-size: 11px;
+  margin: -5px 0 -5px -10px;
+  width: calc(100% + 1px);
+  min-width: 98px;
+  max-width: none;
+  height: calc(100% + 10px);
+  padding: 5px 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+}
+/* .bet_check_label:after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-left: 4px solid #fff;
+  margin: 0 0 0 5px;
+  padding: 0;
+} */
+#main .headline:before, #main .select .header_game_event_lists_link:before, #main section.odds_list dl dd span.toggle_btn:before, #main section.odds_list dl dd ul li:after, .League_table:before, .bet_check_label.game_end:after, .bet_check_label.odds_fix:after, .bet_check_label.odds_fix_before:after, .bet_check_label:after, .end_match_bet_li:after, .error::before, .footer_side_area:after, .game_bet_table:after, .left_bet_ratio:before, .load_more_button:before, .login_tel_link:after, .odds_type:before, .page_top:before, .right_bet_ratio:before, .select_odds:before, .toggle_btn:before, footer:after, h1.headline.match:before, header .inner:after, nav .inner ul.cf li:after {
+  content: "";
+}
+.game_bet_table:after {
+  display: inline-block;
+  clear: both;
+  height: 0;
+  width: 0;
+}
+#main .headline:before, #main .select .header_game_event_lists_link:before, #main section.odds_list dl dd span.toggle_btn:before, #main section.odds_list dl dd ul li:after, .League_table:before, .bet_check_label.game_end:after, .bet_check_label.odds_fix:after, .bet_check_label.odds_fix_before:after, .bet_check_label:after, .end_match_bet_li:after, .error::before, .footer_side_area:after, .game_bet_table:after, .left_bet_ratio:before, .load_more_button:before, .login_tel_link:after, .odds_type:before, .page_top:before, .right_bet_ratio:before, .select_odds:before, .toggle_btn:before, footer:after, h1.headline.match:before, header .inner:after, nav .inner ul.cf li:after {
+  content: "";
+}
+
+.baseball_description {
+  font-size: 11px;
+  margin: 0;
+  padding: 10px 20px;
+}
+#main ul.header_game_event_lists {
+  font-size: 12px;
+  padding: 0;
+  list-style: none;
+}
+#main .header_game_event_lists_li:first-child {
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+#main .header_game_event_lists_li {
+  display: block;
+  margin: 0;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.header_game_event_lists_link {
+  display: block;
+  text-decoration: none;
+  padding: 10px 10px 10px 30px;
+  background-color: #333;
+  color: #fff;
+}
+.tabs_overflow {
+  width: 100%;
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+body.ja #main section.odds_list dl dt span.match_game_name {
+  font-size: 12px;
+}
+#main, .locale, .odds_type, .timezone, h1.headline {
+  overflow-x: hidden;
+}
+.League_table_overflow {
+  margin: 26px 0 0;
+  padding: 0;
+  font-size: 11px;
+  max-height: 100vh;
+  width: 100%;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.League_table {
+  position: relative;
+  min-width: 100%;
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #333;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom: 50px;
+}
+.League_table:before {
+  background-image: linear-gradient(to right,#fff 0,#fff 20px,rgba(255,255,255,0) 30px,rgba(255,255,255,0) calc(100% - 30px),#fff calc(100% - 20px),#fff 100%);
+  width: calc(100% - 60px);
+  left: 60px;
+  height: 24px;
+  top: -20px;
+  position: absolute;
+}
+.League_table tr th:first-child {
+  background: #fff;
+  color: #333;
+  border-top: 0;
+  border-bottom-color: rgba(0,0,0,.2);
+  border-right-color: rgba(0,0,0,.2);
+  font-size: 10px;
+}
+.League_table thead th.sticky_left div {
+  position: relative;
+  padding: 0;
+  height: 100%;
+}
+.first_rank {
+  bottom: -1px;
+  left: 0;
+  padding-top: 4px;
+  font-weight: 700;
+  background: #d2dbe4;
+  border-radius: 50% 50% 0 0;
+  border: 1px solid rgba(0,0,0,.1);
+  border-bottom: 0;
+}
+.first_rank, .second_rank {
+  position: absolute;
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+  font-size: 12px;
+  text-align: center;
+}
+.second_rank {
+  top: calc(50% - 11px);
+  right: -1px;
+  padding-left: 3px;
+  padding-top: 2px;
+  font-weight: 700;
+  background: #e7e7e7;
+  border-radius: 50% 0 0 50%;
+  border: 1px solid rgba(0,0,0,.1);
+  border-right: 0;
+}
+.first_rank, .second_rank {
+  position: absolute;
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+  font-size: 12px;
+  text-align: center;
+}
+.League_table thead th {
+  z-index: 2;
+  background-color: #e7e7e7;
+  height: 30px;
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding: 5px;
+  color: #fff;
+}
+.League_table td, .League_table th {
+  border-right: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  font-weight: 700;
+}
+.League_table_cell {
+  padding: 5px 0;
+  width: 100px;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fbfbfb;
+  z-index: 1;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.League_table_cell .team_icon {
+  vertical-align: middle;
+}
+#main section.odds_list dl dd ul.side_by_side li img.team_icon, .team_icon {
+  Float: none;
+}
+#main section.odds_list dl dd ul li img.team_icon, .team_icon {
+  float: left;
+  margin-right: 5px;
+  height: 25px;
+  width: auto;
+  width: 30px;
+    object-fit: cover;
+}
+#main section.odds_list dl dd ul li img.team_icon, .team_icon {
+  margin-top: -3px;
+}
+.League_table_team_name {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  line-height: 1.3em;
+  font-feature-settings: "palt"1;
+  width: 70px;
+  text-align: left;
+  color: #333;
+  word-break: break-all;
+  font-weight: 600;
+}
+.League_table tr td:first-child {
+  background-color: #d2dbe4;
+  color: #fff;
+  border-left: 1px solid rgba(0,0,0,.1);
+}
+.League_table tr td:first-child, .League_table tr th:first-child {
+  width: 30px;
+  min-width: 30px;
+}
+.League_table td, .League_table th {
+  border-right: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  font-weight: 700;
+}
+.sticky_left {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+}
+.League_table_cell {
+  padding: 5px 0;
+  width: 30px;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fbfbfb;
+  z-index: 1;
+}
+.League_table td, .League_table th {
+  border-right: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  font-weight: 700;
+}
+.Diagonal_line {
+  background-image: linear-gradient(to bottom left,transparent,transparent 48.5%,rgba(0,0,0,.1) 50%,transparent 51.5%,transparent);
+}
+.League_table_cell .display_odds {
+  position: relative;
+}
+.Diagonal_line .hands_bet_end_soon, .Diagonal_line .hands_bet_now {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+.hands_bet_end_soon, .hands_bet_now {
+  cursor: pointer;
+  cursor: hand;
+  display: inline-block;
+  font-weight: 700;
+  padding: 5px;
+  min-width: 65px;
+  border: 1px solid rgba(0,0,0,.2);
+  background-color: #fff;
+}
+.text_center {
+  text-align: center;
+}
+.scroll_navigate_arrow {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20800%22%3E%3Cg%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M682.891%20228.695c0-4.932-3.389-6.777-7.531-4.102L411.293%20395.137c-4.144%202.675-4.144%207.052%200%209.728L675.36%20575.406c4.142%202.677%207.531.83%207.531-4.1V228.695zM391.816%20228.695c0-4.932-3.392-6.777-7.532-4.102L120.217%20395.137c-4.144%202.675-4.144%207.052%200%209.728l264.067%20170.542c4.141%202.677%207.532.83%207.532-4.1V228.695z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E),url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20800%22%3E%3Cg%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M117.109%20228.695c0-4.932%203.389-6.777%207.531-4.102l264.067%20170.544c4.144%202.675%204.144%207.052%200%209.728L124.64%20575.406c-4.142%202.677-7.531.83-7.531-4.1V228.695zM408.184%20228.695c0-4.932%203.392-6.777%207.532-4.102l264.067%20170.544c4.144%202.675%204.144%207.052%200%209.728L415.716%20575.406c-4.141%202.677-7.532.83-7.532-4.1V228.695z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E);
+  width: 100%;
+  height: 24px;
+  background-position: left 62px top 3px,right 2px top 3px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 760px){
+  #main {
+    float: none;
+    padding: 0 0 20px;
+    height: 100%;
+    box-shadow: 0 0;
+    background: #fff;
+}
+#main, #nav {
+  display: block;
+}
+#contents, #main {
+  margin: 0;
+  width: 97%;
+  min-height: 100%;
+  margin:0 auto;
+}
+#main .main_content_box, #main article {
+  width: 100%;
+}
+#main .main_content_box, #main article {
+  width: 100%;
+}
+#main .sp {
+  display: block;
+}
+#main .pc {
+  display: none;
+}
+#main section.odds_list {
+  margin: 0 0 10px;
+  padding: 0;
+  background-color: #fff;
+  float: none;
+  width: 100%;
+}
+.tabs_overflow {
+  overflow-x: scroll;
+}
+#tab {
+  display: inline-table;
+  width: auto;
+  min-width: 100%;
+}
+#main section.odds_list dl {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+#main section.odds_list dl dt {
+  padding: 10px 10px 10px 15px;
+  font-size: 13px;
+}
+#main section.odds_list dl dt {
+  background: #000;
+}
+#main section.odds_list dl dt, .end_match_title {
+  font-weight: 700;
+  text-align: left;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  clear: both;
+}
+#main section.odds_list dl dt span {
+  font-size: 11px;
+}
+#main section.odds_list dl dt span {
+  font-size: 11px;
+}
+#main section.odds_list dl dd {
+  margin: 0;
+  padding: 0;
+  clear: both;
+  color: #6d6d6d;
+}
+#main section.odds_list dl dd p.time {
+  display: inline-block;
+  float: left;
+  max-width: 50%;
+  margin: 0;
+  display: none;
+}
+#main section.odds_list dl dd p.time span.game_set_count {
+  display: inline-block;
+}
+}
+.Form {
+  margin-top: 80px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  max-width: 790px;
+  width: 790px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 480px) {
+  .Form {
+    margin-top: 40px;
+    width: 98%;
+    margin: 0 auto;
+  }
+}
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 769px) {
+  .Form-Item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .Form-Item-Label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label.isMsg {
+    margin-top: 0;
+  }
+}
+.Form-Item-Label-Required {
+  border-radius: 2px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #E53A3A;
+  color: #fff;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label-Required {
+    border-radius: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+}
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .Form-Item-Input {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Textarea {
+    margin-top: 18px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Btn {
+  border-radius: 2px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #E53A3A;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 0 2px 0 rgba(0,0,0,0.12);
+}
+@media screen and (max-width: 480px) {
+  .Form-Btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+  }
+}
+.form_ti{
+    width:75%;
+    margin:0 auto;
+  }
+@media screen and (min-width: 1024px)and (max-width: 1100px) {
+  .form_ti{
+    width:70%;
+    margin:0 auto;
+  }
+  .Form {
+    margin-top: 80px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    max-width: 590px;
+    width: 790px;
+    margin: 0 auto;
+}
+}
+@media screen and (min-width: 768px)and (max-width: 1023px) {
+  .form_ti{
+    width:60%;
+    margin:0 auto;
+  }
+  .Form {
+    margin-top: 80px;
+    width: 400px;
+    max-width: 520px;
+    margin: 0 auto;
+}
+}
+@media screen and (max-width: 480px) {
+  .css-m6hssr {
+    padding: 85px 0!important;
+}
+.form_ti {
+  width: 90%;
+  margin: 0 auto;
+}
+}
+.inputCompletion {
+  clear: both;
+  width: auto;
+  background: #F0F1F2;
+  border-radius:10px;
+  padding: 5px 11px;
+  padding-top:50px;
+  margin: 5px 0 0 0;
+}
+.betNumber, .total, .betSelect {
+    margin: 3px 9px 5px 0;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.0;
+    text-align: center;
+}
+.betNumber span, .total span, .betSelect span {
+  display: inline-block;
+  width: 80px;
+}
+.betNumber strong, .total strong, .betSelect strong {
+  display: inline-block;
+  background: #333;
+  box-shadow: 0px 0px 3px 3px #000 inset;
+  color: #F2E0A3;
+  margin: 0 5px 0 10px;
+  padding: 8px 8px;
+  width: 155px;
+  font-size: 18px;
+  text-align: right;
+}
+.bet_con{
+  width:30%;
+  margin:0 auto;
+}
+.betcom {
+  width: 120px;
+  vertical-align: bottom;
+}
+.amount{
+  border: 2px solid #1A61AB;
+  border-radius: 5px;
+  margin: 0 5px;
+  font-size: 12px;
+  width: 170px;
+  padding: 3px;
+}
+#amount{
+  border: 2px solid #1A61AB;
+  border-radius: 5px;
+  margin: 0 5px;
+  font-size: 12px;
+  width: 160px;
+  padding: 3px;
+}
+.BTN_flex{
+  text-align: center;
+  margin-top: 30px;
+}
+.BTN_in{
+  display:inline-block!important;
+}
+.resign_main {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 80px;
+}
+.resign_attention {
+  margin: 20px 0;
+  font-size: 16px;
+  background: #ebb1a1;
+  color: #fff;
+  padding: 20px;
+}
+.resign_box {
+  padding: 30px;
+}
+.resign_subtitle {
+  font-size: 16px;
+  padding: 20px 20px 10px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.resign_ul {
+  padding: 10px 0;
+  list-style-type: none;
+  font-size: 15px;
+}
+.resign_li {
+  padding: 10px 20px 10px calc(1em + 20px);
+}
+.resign_li:before {
+  content: "";
+  margin-left: -1em;
+}
+.resign_table {
+  display: table;
+  width: 100%;
+}
+.resign_table_tr {
+  display: table-row;
+}
+.resign_table_td {
+  display: table-cell;
+  width: 40%;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  font-size: 16px;
+  padding: 20px;
+}
+.resign_table_td:nth-child(2) {
+  width: 60%;
+}
+.resign_input_block {
+  padding: 20px 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.resign_table {
+  display: table;
+  width: 100%;
+}
+.resign_input_form[type=password] {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  color: #000;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  border: 1px solid rgba(0,0,0,.1);
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+}
+/*.resign_label:before {*/
+/*  content: "";*/
+/*  font-family: icomoon;*/
+/*  text-align: center;*/
+/*  display: inline-block;*/
+/*  vertical-align: middle;*/
+/*  height: 25px;*/
+/*  width: 25px;*/
+/*  font-size: 18px;*/
+/*  line-height: 23px;*/
+/*  margin-right: 10px;*/
+/*  border: 2px solid #6cb3e0;*/
+/*  color: #6cb3e0;*/
+/*}*/
+@media (max-width: 815px), (max-width: 815px) and (max-device-width: 1024px){
+.resign_main {
+    width: 100%;
+    margin: 0 auto;
+}
+.resign_table, .resign_table_td, .resign_table_tr {
+  display: block;
+  width: 100%;
+  border-bottom: 0;
+}
+.resign_table_td, .resign_table_tr {
+  padding-top: 10px;
+}
+.resign_table, .resign_table_td, .resign_table_tr {
+  display: block;
+  width: 100%;
+  border-bottom: 0;
+}
+.resign_table_td:nth-child(2) {
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+}
+@media screen and (max-width: 768px) {
+  .resign_box {
+    padding: 30px 0;
+}
+.resign_input_block {
+  padding: 20px 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.resign_input_form[type=password] {
+  display: block;
+  width: 88%;
+  padding: 10px 15px;
+  color: #000;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  border: 1px solid rgba(0,0,0,.1);
+}
+}
+@media screen and (max-width: 480px) {
+  .resign_input_form[type=password] {
+    display: block;
+    width: 83%;
+    padding: 10px 15px;
+    color: #000;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    border: 1px solid rgba(0,0,0,.1);
+  }
+}
+@media screen and (max-width: 340px) {
+  .resign_input_form[type=password] {
+    display: block;
+    width: 80%;
+    padding: 10px 15px;
+    color: #000;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    border: 1px solid rgba(0,0,0,.1);
+  }
+}
+@media screen and (max-width: 1335px) {
+  .bet_con{
+    width:40%;
+    margin:0 auto;
+  }
+}
+@media screen and (max-width: 1065px) {
+  .bet_con{
+    width:45%;
+    margin:0 auto;
+  }
+}
+@media screen and (max-width: 980px) {
+  .bet_con{
+    width:50%;
+    margin:0 auto;
+  }
+}
+@media screen and (max-width: 850px) {
+  .bet_con{
+    width:55%;
+    margin:0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bet_con{
+    width:65%;
+    margin:0 auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bet_con{
+    width:100%;
+    margin:0 auto;
+  }
+}
+@media screen and (max-width: 480px){
+.css-m6hssr {
+    padding: 0!important;
+}
+.css-1wdiqs4 {
+    padding-top: 0;
+}
+.css-1u90wth {
+    padding-top: 0;
+}
+.css-uinco {
+    margin-top: 0;
+}
+.css-m6hssr {
+    padding-top: 0;
+}
+.css-1wdiqs4 {
+    padding-top: 0;
+}
+}
